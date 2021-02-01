@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZbCJ8T5OaglL0domKPI1ncpsPz9qnJEwZqUR0C5BZdnlpTFNMad6cvpV1UkgCw7CFg5tvBX1quTuqhjofmnnTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Acer\\source\\repos\\YmlReaderAPI\\YmlReaderAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
