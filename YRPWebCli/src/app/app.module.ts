@@ -12,7 +12,6 @@ const appRoutes: Routes = [
 @NgModule({
     imports:[BrowserModule, RouterModule.forRoot(appRoutes)],
     declarations: [ AppComponent, DashboardComponent],
-    exports: [RouterModule],
     providers: [],
     bootstrap:[AppComponent]
 })
