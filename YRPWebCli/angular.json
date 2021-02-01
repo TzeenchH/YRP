@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "projects": {
+      "YRPWebCli": {
+        "projectType": "application",
+        "root": "",
+        "sourceRoot": "src",
+        "schematics": {
+          "@schematics/angular:component": {
+            "styleext": "scss"
+          }
+        },
+        "architect": {
+          "build": {
+            "builder": "@angular-devkit/build-angular:browser",
+            "options": {
+              "outputPath": "dist/YRPWebCli",
+              "index": "src/index.html",
+              "main": "src/main.ts",
+              "polyfills": "src/polyfills.ts",
+              "tsConfig": "tsconfig.json",
+              "aot": true
+            }
+          },
+          "serve": {
+            "builder": "@angular-devkit/build-angular:dev-server",
+            "options": {
+              "browserTarget": "YRPWebCli:build"
+            }
+          }
+        }
+      }},
+    "defaultProject": "YRPWebCli"
+  }
